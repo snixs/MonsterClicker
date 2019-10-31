@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/gameTitle"
+        android:layout_width="255dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/scream_real"
+        android:outlineSpotShadowColor="@color/primaryDarkColor"
+        android:text="@string/monster_clicker"
+        android:textAlignment="center"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/start"
+        android:layout_width="179dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="112dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/press_start_2p"
+        android:paddingTop="20dp"
+        android:text="New game"
+        android:textAlignment="center"
+        android:textColor="@color/primaryTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gameTitle" />
+
+    <TextView
+        android:id="@+id/load"
+        android:layout_width="179dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/press_start_2p"
+        android:paddingTop="20dp"
+        android:shadowColor="@color/primaryDarkColor"
+        android:text="Load game"
+        android:textAlignment="center"
+        android:textColor="@color/primaryTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start" />
+
+    <TextView
+        android:id="@+id/options"
+        android:layout_width="179dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/press_start_2p"
+        android:paddingTop="20dp"
+        android:text="Scores"
+        android:textAlignment="center"
+        android:textColor="@color/primaryTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/load" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

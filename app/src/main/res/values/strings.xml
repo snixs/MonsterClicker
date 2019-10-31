@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MonsterClicker</string>
+    <string name="demon">demon</string>
+    <string name="monster_clicker">Monster Clicker</string>
+    <string name="player_score">score</string>
+    <string name="playerName">name</string>
+    <string name="scores">Scores</string>
+    <string name="add">add</string>
+    <string name="cancel">cancel</string>
+</resources>
