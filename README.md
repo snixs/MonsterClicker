@@ -6,12 +6,12 @@
 
 > App summery
 
-A basic game of clicking the jumping monster each monster has a few set of lives 
-with its own hp each click is 1 hit but you can upgrade your hit points by buying upgrades
-you can buy an auto clicker as well and upgrade it
-It was made as part of an institute project to showcase implementation
-of diffrent Objects and libraries the main goal was to build it stricly from android lybrerirers 
-not using any outsorce material. 
+A basic game of clicking the monster, each monster has a few set of lives </br>
+with its own hp each click is 1 hit but you can upgrade your hit points by buying upgrades</br>
+you can buy an auto clicker as well and upgrade it.</br>
+It was made as part of an institute project to showcase implementation</br>
+of diffrent android built in libraries. </br>
+the main goal was to build it strictly from android libraries not using any outsource material. </br>
 
 > Example
 
@@ -35,7 +35,7 @@ not using any outsorce material.
 
 ## Installation
 
- 👯 Clone this repo to your local machine using `https://github.com/snixs/QuizApp.git`
+ 👯 Clone this repo to your local machine using `https://github.com/snixs/MonsterClicker.git`
  
 ---
 
